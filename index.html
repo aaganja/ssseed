@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/application.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css">
     <link href="https://fonts.googleapis.com/css?family=Signika:400,600,700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="assets/javascript/application.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/js/lightgallery.min.js"></script>
 </head>
 
 <body>
@@ -31,12 +33,14 @@
         </div>
         <div class="sss-nav__menu">
             <ul class="sss-nav__list">
-                <li class="sss-nav__list--item"><a class="active" href="#home">Home</a></li>
+                <li class="sss-nav__list--item"><a href="#home">Home</a></li>
                 <li class="sss-nav__list--item"><a href="#about">About</a></li>
                 <li class="sss-nav__list--item"><a href="#infoVid">Video</a></li>
                 <li class="sss-nav__list--item"><a href="#services">Services</a></li>
+                <li class="sss-nav__list--item"><a href="#crops">Crops</a></li>
+                <li class="sss-nav__list--item"><a href="#values">Values</a></li>
+                <li class="sss-nav__list--item"><a href="#gallery">Gallery</a></li>
                 <li class="sss-nav__list--item"><a href="#contact">Contact</a></li>
-
             </ul>
 
         </div>
@@ -113,9 +117,9 @@
                     <div class="col-md-6">
                         <div class="welcome__inner">
                             <!-- <div class="welcome__inner--content welcome__inner--first">
-                                  <h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
-                                  <p class="welcome__inner--info">Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
-                              </div> -->
+																<h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
+																<p class="welcome__inner--info">Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
+														</div> -->
                             <div class="welcome__inner--content">
                                 <h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
                                 <div class="welcome__inverted">
@@ -229,7 +233,6 @@
             </div>
         </div>
     </section>
-    <!-- <section class="sss-section sss-blogs"></section> -->
     <section class="sss-section sss-experts" id="values">
         <div class="container">
             <h3 class="sss-section__title services__title">
@@ -277,14 +280,42 @@
             </div>
         </div>
     </section>
-    <!-- <section class="sss-section sss-gallery">
+    <section class="sss-section sss-gallery" id="gallery">
         <div class="container">
             <h3 class="sss-section__title services__title">
                 <span class="sss-section__title--color">G</span>allery
                 <div class="sss-section__title--border"></div>
             </h3>
         </div>
-    </section> -->
+        <div id="sss_gallery" class="gallery__container">
+            <a class="gallery__container--item" href="assets/img/Stock1.jpg">
+                <img src="assets/img/Stock1.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock2.jpg">
+                <img src="assets/img/Stock2.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock3.jpg">
+                <img src="assets/img/Stock3.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock4.jpg">
+                <img src="assets/img/Stock4.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock5.jpg">
+                <img src="assets/img/Stock5.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock6.jpg">
+                <img src="assets/img/Stock6.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock7.jpg">
+                <img src="assets/img/Stock7.jpg" />
+            </a>
+            <a class="gallery__container--item" href="assets/img/Stock8.jpg">
+                <img src="assets/img/Stock8.jpg" />
+            </a>
+
+
+        </div>
+    </section>
     <section class="sss-section sss-contact" id="contact">
         <div class="container">
             <h3 class="sss-section__title services__title">
@@ -339,7 +370,7 @@
 
             <!-- Modal content-->
             <div class="modal-content">
-                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                <iframe class="sss-videoContent" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
             </div>
 
         </div>
