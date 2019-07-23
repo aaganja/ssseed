@@ -18,8 +18,31 @@
 </head>
 
 <body>
-    <section class="sss-nav"></section>
-    <section class="sss-section sss-hero">
+    <section class="sss-nav">
+        <div class="sss-nav__logo">
+            <div class="sss-nav__avatar">
+                <img src="assets/img/ssseeds.png">
+            </div>
+        </div>
+        <div class="sss-hamburger">
+            <span class="sss-hamburger__item"></span>
+            <span class="sss-hamburger__item"></span>
+            <span class="sss-hamburger__item"></span>
+        </div>
+        <div class="sss-nav__menu">
+            <ul class="sss-nav__list">
+                <li class="sss-nav__list--item"><a class="active" href="#home">Home</a></li>
+                <li class="sss-nav__list--item"><a href="#about">About</a></li>
+                <li class="sss-nav__list--item"><a href="#infoVid">Video</a></li>
+                <li class="sss-nav__list--item"><a href="#services">Services</a></li>
+                <li class="sss-nav__list--item"><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+    </section>
+    <section class="sss-section sss-hero" id="home">
+
         <div class="wrapper">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -63,18 +86,19 @@
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <img src="assets/img/carousel-prev.png">
                     <span class="sr-only">Previous</span>
                 </a>
                 <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <img src="assets/img/carousel-next.png">
                     <span class="sr-only">Next</span>
                 </a>
             </div>
         </div>
     </section>
-    <section class="sss-section sss-welcome">
+    <section class="sss-section sss-welcome" id="about">
         <div class="container">
+
             <div class="welcome__head">
                 <h3 class="sss-section__title welcome__title">
                     <span class="sss-section__title--color">W</span>elcome
@@ -89,9 +113,9 @@
                     <div class="col-md-6">
                         <div class="welcome__inner">
                             <!-- <div class="welcome__inner--content welcome__inner--first">
-																	<h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
-																	<p class="welcome__inner--info">Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
-															</div> -->
+                                  <h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
+                                  <p class="welcome__inner--info">Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit, Nulla viverra pharetra sem eget.</p>
+                              </div> -->
                             <div class="welcome__inner--content">
                                 <h4 class="welcome__inner--title">About <span class="sss-section__title--color">SSSeeds</span></h4>
                                 <div class="welcome__inverted">
@@ -114,7 +138,7 @@
         </div>
 
     </section>
-    <section class="sss-section sss-infovid">
+    <section class="sss-section sss-infovid" id="infoVid">
         <div class="infovid__container clearfix">
             <h3 class="infovid__container--title">
                 Sarba Shrestha Seeds will stand out among all in Nepal by providing quality seeds to every farmer.
@@ -122,7 +146,7 @@
             </h3>
         </div>
     </section>
-    <section class="sss-section sss-services">
+    <section class="sss-section sss-services" id="services">
         <div class="container">
             <h3 class="sss-section__title services__title">
                 <span class="sss-section__title--color">S</span>ervices
@@ -161,7 +185,7 @@
             </div>
         </div>
     </section>
-    <section class="sss-section sss-ourCrops">
+    <section class="sss-section sss-ourCrops" id="crops">
         <div class="container">
             <div class="ourCrops__container clearfix">
                 <h3 class="sss-section__title ourCrops__title">
@@ -206,7 +230,7 @@
         </div>
     </section>
     <!-- <section class="sss-section sss-blogs"></section> -->
-    <section class="sss-section sss-experts">
+    <section class="sss-section sss-experts" id="values">
         <div class="container">
             <h3 class="sss-section__title services__title">
                 <span class="sss-section__title--color">O</span>ur Morals
@@ -251,6 +275,7 @@
                 </div>
 
             </div>
+        </div>
     </section>
     <!-- <section class="sss-section sss-gallery">
         <div class="container">
@@ -260,7 +285,7 @@
             </h3>
         </div>
     </section> -->
-    <section class="sss-section sss-contact">
+    <section class="sss-section sss-contact" id="contact">
         <div class="container">
             <h3 class="sss-section__title services__title">
                 <span class="sss-section__title--color">C</span>ontact Us
@@ -298,6 +323,8 @@
                         <img src="assets/img/Stock7.jpg">
                     </div>
                 </div>
+            </div>
+        </div>
 
     </section>
     <section class="sss-section sss-footer">
