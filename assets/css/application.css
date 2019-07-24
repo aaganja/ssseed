@@ -543,6 +543,32 @@ textarea {
     width: 100%;
 }
 
+.sss-video__modal.modal.in .modal-dialog {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.sss-video__modal .modal-content {
+    position: relative;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sss-video__modal .sss-videoContent {
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
 
 /****** Services *****/
 
@@ -923,5 +949,10 @@ textarea {
     }
     .infovid__container--title .fa-play-circle-o {
         font-size: 3em
+    }
+    .sss-video__modal .modal-dialog {
+        width: 300px;
+        max-width: 300px;
+        margin: auto;
     }
 }
