@@ -366,15 +366,19 @@ textarea {
 }
 
 .sss-hero .carousel-inner .item-first {
-    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/ABC-trek.jpg');
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/slider-1.jpg');
 }
 
 .sss-hero .carousel-inner .item-second {
-    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/paragliding.jpg');
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/slider-2.jpg');
 }
 
 .sss-hero .carousel-inner .item-third {
-    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/pokhara.jpeg');
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/slider-3.jpg');
+}
+
+.sss-hero .carousel-inner .item-fourth {
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/slider-4.jpg');
 }
 
 .hero__container {
@@ -449,6 +453,7 @@ textarea {
     color: #6a6a6b;
     line-height: 1.8;
     font-weight: 400;
+    text-align: justify;
 }
 
 .welcome__inner--title {
@@ -504,7 +509,7 @@ textarea {
 .sss-infovid {
     max-height: 450px;
     height: 450px;
-    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/ABC-trek.jpg');
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url('../img/background.jpg');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -600,7 +605,7 @@ textarea {
 /**********Our Crops *********/
 
 .sss-ourCrops {
-    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url(../img/ABC-trek.jpg);
+    background-image: linear-gradient(to bottom, rgba(29, 31, 36, 0.4), rgba(29, 31, 36, 0.4)), url(../img/background.jpg);
     position: relative;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -635,10 +640,10 @@ textarea {
     position: absolute;
     text-align: center;
     bottom: 0;
-    background-color: #7ebd34;
+    background-color: #448AFF;
     left: 10px;
     right: 10px;
-    min-height: 80px;
+    min-height: 50px;
 }
 
 .ourCrops__content--name {
