@@ -369,6 +369,7 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: bottom;
 }
 
 .sss-hero .carousel-inner .item-first {
