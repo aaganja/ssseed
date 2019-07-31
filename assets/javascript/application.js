@@ -65,6 +65,10 @@ $(document).ready(function() {
         $('.sss-videoContent').css("height", ourVideoheight + 'px');
         // });
 
+        var ourTeamwidth = $('.team__sss--width').innerWidth();
+        var ourTeamheight = Math.round(ourTeamwidth * 3 / 4);
+        $('.team__avatar').css("height", ourTeamheight + 'px');
+
 
     };
     var winWidth = $(window).innerWidth()
